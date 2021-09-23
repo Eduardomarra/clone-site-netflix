@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="style/main.css" />
+    <title>Clone Site Netflix</title>
+  </head>
+  <body>
+    <header >
+      <div class="navHeader">
+        <a href="index.html" class="logo"><h2>netflix</h2></a>
+        <nav class="navMenu">
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="#">Filmes</a></li>
+            <li><a href="#">Séries</a></li>
+            <li><a href="#">Documentários</a></li>
+          </ul>
+        </nav>
+        <nav class="menu-mobile ativo">
+          <ul>
+            <li id="navegar"><a href="#" id="mobile">Navegar</a>
+              <div class="sub-menu">
+                <ul >
+                  <li><a href="#">Filmes</a></li>
+                  <li><a href="#">Séries</a></li>
+                  <li><a href="#">Documentários</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="userMenu">
+        <div class="search">
+          <button id="searchButton">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+        <a href="#">INFANTIL</a>
+        <i class="fas fa-bell"></i>
+        <div class="user-profile">
+          <img src="img/profile.jpg" />
+          <i class="fas fa-sort-down"></i>
+        </div>
+      </div>
+    </header>
+
+    <section class="movie">
+      <img src="img/infiltrado.jpg" alt="" />
+      <div class="descriptionMovie">
+        <h2 class="titulo">Infiltrado (2021)</h2>
+        <p class="description">
+          Harry, conhecido apenas como H, é um homem misterioso que trabalha
+          para uma empresa de carros-fortes e movimenta grandes quantias de
+          dinheiro pela cidade de Los Angeles. Quando, ao impedir um assalto,
+          ele surpreende a todos com suas habilidades de combate, suas
+          verdadeiras intenções começam a ser questionadas e um plano maior é
+          revelado.
+        </p>
+        <div class="button">
+          <button class="btn" role="button">
+            <i class="fas fa-play"></i>Assistir
+          </button>
+          <button class="btn btnMI" role="button">
+            <i class="fas fa-info-circle"></i>Mais informações
+          </button>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img class="box-movie" src="img/card1.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img class="box-movie" src="img/card2.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img class="box-movie" src="img/card3.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img class="box-movie" src="img/card4.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img class="box-movie" src="img/card5.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img class="box-movie" src="img/card6.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img class="box-movie" src="img/card7.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img class="box-movie" src="img/card8.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img class="box-movie" src="img/card9.jpg" alt="" />
+        </div>
+        <div class="item">
+          <img class="box-movie" src="img/card10.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
